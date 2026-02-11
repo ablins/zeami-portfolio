@@ -28,14 +28,14 @@ export function CtaSection() {
   return (
     <section
       id="orcamento"
-      className="border-t border-border bg-background py-24 md:py-32"
+      className="border-t border-border bg-stone-100 py-24 md:py-32"
     >
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16">
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-primary">
             Vamos criar juntos
           </p>
-          <h2 className="font-serif text-4xl tracking-tight text-card-background md:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-4xl tracking-tight text-background md:text-5xl lg:text-6xl">
             Peça seu orçamento
           </h2>
           <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted-foreground">

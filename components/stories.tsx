@@ -35,7 +35,7 @@ export function Stories() {
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-primary">
             Literatura
           </p>
-          <h2 className="font-serif text-4xl tracking-tight text-card-foreground md:text-5xl">
+          <h2 className="font-serif text-4xl tracking-tight text-background md:text-5xl">
             Publicações
           </h2>
           <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted-foreground">

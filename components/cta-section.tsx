@@ -55,7 +55,7 @@ export function CtaSection() {
             >
               <div>
                 <cta.icon className="mb-6 h-8 w-8 text-primary" />
-                <h3 className="font-serif text-2xl text-background">
+                <h3 className="font-serif text-2xl text-stone-100">
                   {cta.label}
                 </h3>
                 <p className="mt-3 leading-relaxed text-muted-foreground">

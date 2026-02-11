@@ -29,7 +29,7 @@ const publications = [
 
 export function Stories() {
   return (
-    <section id="publicacoes" className="bg-card py-24 md:py-32">
+    <section id="publicacoes" className="bg-stone-100 py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16">
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-primary">
@@ -48,7 +48,7 @@ export function Stories() {
           {publications.map((pub) => (
             <article
               key={pub.title}
-              className="group flex flex-col justify-between rounded-lg border border-border bg-background p-8 transition-shadow hover:shadow-lg"
+              className="group flex flex-col justify-between rounded-lg border border-border bg-amber-50 p-8 transition-shadow hover:shadow-lg"
             >
               <div>
                 <div className="flex items-center gap-3">

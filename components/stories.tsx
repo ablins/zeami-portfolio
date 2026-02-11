@@ -48,7 +48,7 @@ export function Stories() {
           {publications.map((pub) => (
             <article
               key={pub.title}
-              className="group flex flex-col justify-between rounded-lg border border-border bg-amber-50 p-8 transition-shadow hover:shadow-lg"
+              className="group flex flex-col justify-between rounded-lg border border-border bg-background p-8 transition-shadow hover:shadow-lg"
             >
               <div>
                 <div className="flex items-center gap-3">

@@ -35,7 +35,7 @@ export function CtaSection() {
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-primary">
             Vamos criar juntos
           </p>
-          <h2 className="font-serif text-4xl tracking-tight text-background md:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-4xl tracking-tight text-card-background md:text-5xl lg:text-6xl">
             Peça seu orçamento
           </h2>
           <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted-foreground">
@@ -51,11 +51,11 @@ export function CtaSection() {
               href={cta.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col justify-between rounded-lg border border-border bg-stone-100 p-8 transition-colors hover:border-primary/40"
+              className="group flex flex-col justify-between rounded-lg border border-border bg-background p-8 transition-colors hover:border-primary/40"
             >
               <div>
                 <cta.icon className="mb-6 h-8 w-8 text-primary" />
-                <h3 className="font-serif text-2xl text-foreground">
+                <h3 className="font-serif text-2xl text-background">
                   {cta.label}
                 </h3>
                 <p className="mt-3 leading-relaxed text-muted-foreground">

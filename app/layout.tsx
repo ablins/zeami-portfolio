@@ -4,7 +4,7 @@ import { DM_Sans, Playfair_Display, Epilogue } from 'next/font/google'
 
 import './globals.css'
 
-const dmSans = DM_Sans({
+const dmSans = Inter({
   subsets: ['latin', 'latin-ext'],
   display: 'swap',
   variable: '--font-dm-sans',

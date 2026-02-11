@@ -28,7 +28,7 @@ export function CtaSection() {
   return (
     <section
       id="orcamento"
-      className="border-t border-border bg-card py-24 md:py-32"
+      className="border-t border-border bg-background py-24 md:py-32"
     >
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16">

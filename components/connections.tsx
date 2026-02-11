@@ -26,7 +26,7 @@ export function Connections() {
             Conexoes
           </h2>
           <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            Feiras em que participamos e empresas com quem ja colaboramos.
+            Feiras em que participamos e empresas com quem já colaboramos.
           </p>
         </div>
 

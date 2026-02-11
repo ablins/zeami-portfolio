@@ -5,10 +5,10 @@ import { DM_Sans, Playfair_Display, Epilogue } from 'next/font/google'
 import './globals.css'
 
 const dmSans = DM_Sans({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
+  display: 'swap',
   variable: '--font-dm-sans',
 })
-
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
